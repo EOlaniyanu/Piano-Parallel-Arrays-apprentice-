@@ -49,5 +49,15 @@ public class Key extends Actor
         Greenfoot.playSound( sound + ".wav");
     }
     
+    /**
+     * checkDown returns the isDown variable
+     * 
+     * @param There are no parameters
+     * @return isDown is returned 
+     */
+    public boolean checkDown()
+    {
+        return isDown;
+    }
 }
 
